@@ -831,6 +831,7 @@ pre code {
   margin: 10px;
   padding: 10px;
   float: left;
+  background: #FFF;
 }
 .company-profile
 .header{
@@ -925,7 +926,7 @@ pre code {
 }
 .company-profile
 .mini .tag ~ .tag{
-	padding-top: 12px;
+	padding-top: 10px;
 }
 .company-profile
 .mini .tag .type{
@@ -937,7 +938,7 @@ pre code {
 .mini .tag .item{
 	float: right;
 	color: #444;
-	height: 40px;
+	height: 30px;
 }
 .block-section.syndicates {
 	background-color: #f9f9fa;
