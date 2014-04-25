@@ -774,42 +774,63 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
-.start-up-cards .header {
-text-align: center;
+.block-section {
+	width: 100%;
+	clear: both;
+	float: left;
+	border-top: 1px solid #e0e0e0;
+	background-color: #fff;
 }
-.start-up-cards .header .description.no_links.talent {
-padding-bottom: 64px;
+.block-section .block-content:not(.no_padding) {
+	padding: 70px 50px 20px;
 }
-.start-up-cards .header .description {
-font-weight: 100;
-color: #999;
-font-size: 21px;
-padding: 30px 90px 0;
+.block-section .block-content{
+	float: left;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.block-section .block-content>.header {
+	text-align: center;
+}
+.block-section .header .description.no_links.talent {
+	padding-bottom: 64px;
+}
+.block-section .header .description {
+	font-weight: 100;
+	color: #999;
+	font-size: 21px;
+	padding: 30px 90px 0;
 }
 .g-title1 {
-font-family: "helvetica neue","aktiv-grotesk-std",helvetica,arial,freesans,"liberation sans","numbus sans l",sans-serif;
-font-weight: 100;
-font-size: 58px;
-line-height: 70px;
-text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
-color: #333;
+	font-family: "helvetica neue","aktiv-grotesk-std",helvetica,arial,freesans,"liberation sans","numbus sans l",sans-serif;
+	font-weight: 100;
+	font-size: 58px;
+	line-height: 70px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	color: #333;
 }
-.start-up-cards .more_link {
-text-align: center;
-font-size: 20px;
-font-weight: 200;
-float: left;
-width: 100%;
-padding-bottom: 40px;
+.block-section .more_link {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
 }
 .company-profile
 {
+  display: block;
+  box-sizing: border-box;	
   min-height: 300px;
+  max-height: 400px;
+  width: 30%;
   width: 270px;
   border: thin #777 solid;
   margin: 10px;
   padding: 10px;
-  
+  float: left;
 }
 .company-profile
 .header{
@@ -917,8 +938,96 @@ padding-bottom: 40px;
 	float: right;
 	color: #444;
 }
+.block-section.syndicates {
+	background-color: #f9f9fa;
+}
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
+}
+.block-section .block-content.featured_deals {
+	padding-top: 55px;
+}
+.block-content .startups.move {
+	padding-top: 20px;
+}
+.g-title3 {
+	font-family: "helvetica neue","aktiv-grotesk-std",helvetica,arial,freesans,"liberation sans","numbus sans l",sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	color: #333;
+}
+.startup_item{
+	padding: 0;
+	float: none;
+	display: block;
+}
+.startup_item .checkout_investor {
+	height: 105px;
+}
+.startup_item .checkout_investor>.pic.firm {
+	border-color: #e0e1e3;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+.startup_item .checkout_investor>.pic {
+	display: block;
+	vertical-align: middle;
+	-webkit-border-radius: 39px;
+	-moz-border-radius: 39px;
+	-ms-border-radius: 39px;
+	-o-border-radius: 39px;
+	border-radius: 39px;
+	border: 3px solid #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	width: 39px;
+	height: 39px;
+	padding: 0;
+	float: none;
+	margin: 0 auto 10px;
+}
+.startup_item .checkout_investor>.pic img {
+	height: 39px;
+	width: 39px;
+	-webkit-border-radius: 39px;
+	-moz-border-radius: 39px;
+	-ms-border-radius: 39px;
+	-o-border-radius: 39px;
+	border-radius: 39px;
+	padding: 50;
+}
+.startup_item .checkout_investor>.action {
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 1px;
+	float: none;
+	margin: 50 auto;
+	width: 95%;
+}
+.popular {
+	max-width: 1010px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+	position: relative;
+}
+.popular_nav {
+	position: absolute;
+	cursor: pointer;
+	font-size: 26px;
+	width: 2.5%;
+	right: 0;
+	margin-top: 164px;
+}
+.align_right {
+	text-align: right;
 }
 .col-xs-12 {
   width: 100%;
