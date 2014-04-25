@@ -937,6 +937,7 @@ pre code {
 .mini .tag .item{
 	float: right;
 	color: #444;
+	height: 40px;
 }
 .block-section.syndicates {
 	background-color: #f9f9fa;
