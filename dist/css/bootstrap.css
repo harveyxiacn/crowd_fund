@@ -774,6 +774,34 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+.search-bar{
+	background:#333;	
+}
+.search-title-input-btn{
+	width:auto;
+	padding:20px;	
+}
+.search-title{
+	color:#fff;
+	margin-right:15px;
+	font-size:18px;	
+}
+.search-title-input-btn input[type="text"]{
+	height:30px;
+	border-radius:25px;
+	width:66%;
+}
+.search-btn{
+	margin-left:20px;
+	width:120px;
+	height:40px;
+	text-transform:uppercase;
+	background:#60F;
+	border-radius:25px;
+	font-family: "Patua One";
+	font-weight: 200;
+	color:#FFF;
+}
 .block-section {
 	width: 100%;
 	clear: both;
@@ -4142,7 +4170,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-form .form-group {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
   }
 }
 @media (min-width: 768px) {
